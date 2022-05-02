@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+  <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Poppins:wght@300;500;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./src/styles/global.css">
+  <link rel="stylesheet" href="./src/styles/main.css">
+
+  <title>SelectorJS</title>
+</head>
+
+<body>
+  <div id="container">
+    <h1>SELECT.JS</h1>
+    
+    <main>
+      <section>
+        <div class="fields-container">
+          <label class="label-job-name" name="job">Nome do Job</label>
+          <input id="job" placeholder="Digite aqui..." name="job" />
+
+          <a class="select-folder-btn" id="path">Selecionar pasta</a>
+          <span id="path-field"></span>
+        </div>
+
+        <button class="make-select-btn" id="button">Fazer o select</button>
+      </section>
+    </main>
+
+  </div>
+  <script src="./src/View/interface.js"></script>
+</body>
+</html>

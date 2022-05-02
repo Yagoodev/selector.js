@@ -1,0 +1,76 @@
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  width: 80%;
+  height: 100vh;
+}
+
+#container h1 {
+  position: absolute;
+  top: 20px;
+  font-size: 3.6rem;
+  color: #61DCFB;
+}
+
+#container main section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 350px;
+  height: 300px;
+}
+
+#container main section .fields-container {
+  display: grid;
+}
+
+#container section .label-job-name {
+  font-size: 1rem;
+  margin-bottom: 0.4rem;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+#container section input { 
+  width: 350px;
+  height: 35px;
+  border-radius: 10px;
+  padding: 0 1.2rem;
+  border: none;
+  font-family: "Roboto";
+  font-size: 0.9rem;
+  color: #1F2729;
+  margin-bottom: 1.2rem;
+}
+
+#container section .select-folder-btn {
+  cursor: pointer;
+  color: #A8A8B3;
+}
+
+#container .fields-container .path-field { 
+
+}
+
+#container section .make-select-btn {
+  width: 350px;
+  height: 35px;
+  background-color: #EBA417;
+  border-radius: 10px;
+  margin-top: 2.7rem;
+  position: absolute;
+  bottom: 100px;
+  border: none;
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: #121414;
+  transition: 0.2s;
+}
+
+#container section .make-select-btn:hover {
+  filter: brightness(0.95);
+}
